@@ -1,0 +1,121 @@
+body{
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.section_main{
+	position: relative;
+	top: 100px;
+	display: block;
+}
+.about_head{
+	padding-top: 20px;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 2px 2px 8px #F27121;
+	color: #8A2387;
+	display: block;
+	text-align: center;
+}
+
+.my_content{
+	padding: 15px;
+	background: #fff;
+	margin-top: 10vh;
+	display: block;
+	font-size: 18px;
+	text-align: justify;
+	padding-bottom: 30px;
+	/*text-shadow: 0 0 2px #F27121;*/
+	color: #8A2387;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-radius: 4px;
+}
+
+.registerBtn{
+	background: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 2px 2px 8px #F27121;
+	color: #8A2387;
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.services{
+  background: #fff;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.services h1{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #8A2387;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  text-shadow: 2px 2px 8px #F27121;
+	color: #8A2387;
+	font-family: 'Spicy Rice', cursive;
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.service:hover{
+  box-shadow: 0 0 8px #777;
+  background: #ffff;  /* fallback for old browsers */
+
+}
+
+.service i{
+  color: #8A2387;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.service h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  color: #F27121;
+}
+.service p{
+  color: #E94057;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .service{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+.my_content{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+}

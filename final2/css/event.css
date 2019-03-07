@@ -1,0 +1,163 @@
+/*
+Light Purple #720d5d
+Dark Purple  #4e0d3a
+Red          #e30425
+*/
+body{
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.row{
+  position: relative;
+	margin-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 0;
+}
+
+.mCard_wrapper {
+	margin-left: 20px
+	width: 290px;
+	height: 400px;
+	perspective: 1500px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
+
+}
+
+.each_event_card {
+	width: 290px;
+	height: 400px;
+	transform-style: preserve-3d;
+	transform: translateZ(-130px);
+	transition: transform 350ms;
+}
+.each_event_card:hover {
+	transform: rotateY(-75deg) translateZ(20px);
+}
+.each_event_card .poster, 
+.each_event_card .info {
+  position: absolute;
+  width: 260px;
+  height: 400px;
+  background-color: #fff;
+  backface-visibility: hidden;
+}
+.each_event_card .poster  {
+  transform: translateZ(130px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.each_event_card .info {
+  transform: rotateY(90deg) translateZ(130px);
+  border: 1px solid #B8B5B5;
+}
+.each_event_card::after {
+  content: '';
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.5);
+  transform-origin: 100% 100%;
+  transform: rotateX(90deg) translateY(130px);
+  transition: box-shadow 350ms;
+}
+
+.each_event_card:hover::after {
+  box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+}
+.info header {
+  text-align: center;
+  color: #fff;
+  padding: 7px 10px;
+  font-weight: bold;
+  height: 195px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info header h1 {
+  margin: 0 0 2px;
+  font-size: 1.4em;
+  background: rgba(0,0,0,.5);
+}
+
+/*.info header .rating {
+  border: 1px solid #FFF;
+  padding: 0px 3px;
+}*/
+
+.info p {
+  padding: 1.2em 1.4em;
+  margin: 2px 0 0;
+  color: #666;
+  line-height: 1.4em;
+  border-top: 10px solid #555;
+}
+.each_event_card .poster,
+.each_event_card .info,
+.each_event_card .info header {
+  transition: box-shadow 350ms;
+}
+
+.each_event_card .poster {
+  box-shadow: inset 0px 0px 40px rgba(255,255,255,0);
+}
+
+.each_event_card:hover .poster {
+  box-shadow: inset 300px 0px 40px rgba(255,255,255,0.8);
+}
+.each_event_card .info, 
+.each_event_card .info header {
+  box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
+}
+
+.each_event_card:hover .info, 
+.each_event_card:hover .info header {
+  box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
+}
+.poster{
+	background: url("image.jpg");
+}
+.info header{
+  background: url("imagea.jpg");
+}
+
+.event_info_backside{
+  padding-top: 16px;
+  padding-left: 16px;
+  color: #000;
+  font-size: 12px;
+  background: white;
+}
+
+.event_front{
+  background: white;
+  bottom: 0; 
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  height: 30px; 
+  left: 0; 
+  line-height: 30px; 
+  padding-left: 16px;
+  position: absolute; 
+  right: 0; 
+  text-align: center;
+
+}
+
+
+
+/*
+Light Purple #720d5d
+Dark Purple  #4e0d3a
+Red          #e30425
+*/

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Spicy+Rice" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+<style>
+
+body{
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.accordion {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size:15px; 
+  transition: 0.4s;
+  margin-top:20px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #000;
+  font-weight: bold;
+  float: right;
+  font-size: 1.3em;
+  
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding-right:20px;
+  font-size:15px; 
+  background-color: #eee;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+li{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+h1{
+  color: white;
+font-family: 'Spicy Rice', cursive;
+font-size: 2em;
+margin-top: 100px;
+}
+b{
+color: black;
+font-size: 1.2em;
+}
+ul{
+  padding-left: 20px;
+}
+</style>
+<link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+
+  <div id="particles-js" style="position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;" ></div>
+  <div class="container-fluid">
+    <span class="background_nav">
+    
+  </span>
+
+<!-- navbar start from here -->
+  
+  <div class="navigation-wrapper">
+<!-- toggle btn start from here -->
+    <div class="navigation-button">
+      <i class="fa fa-bars"></i>
+    </div>
+<!-- toggle btn end from here -->
+
+<!-- skew menu start here -->
+    <div class="navigation-menu d-none" id="please">
+        <ul>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="timing.html">Timings</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-eL0HCHmlUewwydwi71MwGhyOLV_dtglQqOwhASj9gACAgw/viewform?usp=sf_link">Registration</a></li>
+          <li><a href="https://goo.gl/forms/PaiZ2LKd1ubIICO52">For Alumni</a></li>
+          
+      </ul>
+    </div>
+<!-- skew menu end here -->
+
+  </div>
+
+  <!-- These are two for different screen size. BreakPoint = 600px -->
+
+<span class="logo large_screen">Endeavour Unlimited 2k19</span>
+<span class="logo small_screen">EU2k19</span>
+
+<!-- navbar end here -->
+  </div> 
+<div class="container" style="margin-top:100px;">
+  <h1  class="text-center" style="margin-bottom: 30px;">GENERAL RULES FOR THE EVENTS:</h1>
+  <div class="jumbotron" style="font-size:15px; background: #fff;">
+            <ul>
+                            <li><b >Sports</b>: Single entry per event, per institute, however the host institute may have 2 entries.</li>
+                  <li><b>Cultural</b>: The guest colleges can register two entries for all the cultural events except for the Fashion Show which will have only one entry.</li>
+                  <li>At least one faculty coordinator and two student coordinators from the institute should be present in the campus throughout the events. </li>
+                  <li>Participants should carry their college identity cards & TWO STAMP-sized photographs with them. </li>
+                  <li>Practice room will be provided, if intimated well in advance.</li>
+                  <li>Each event may have its own special rules. Please refer to the event page for more information.</li>
+                  <li>The Institute reserves the right to cancel or reschedule any event without any prior information. </li>
+                  <li>Any kind of damage to college property will not be entertained and those responsible will be penalized.</li>
+                  <li>The host institute will not provide any TA</li>
+                  <li>The decision of the jury will be final.</li>
+                  <li>For the information regarding the time and venue of the events, the institute coordinator must be in contact with the organizing committee. </li>
+                 <li>The participants must be present at the venue at the stipulated time</li>
+                 <li>A waiting time of maximum 2mins would be given. </li>
+                 <li>No entry for non-participating students from invited colleges.</li>
+
+
+  
+    </ul>
+    <ul style="list-style-type:square">
+                  <li>
+      <b><span style="font-size: 15px;">Drinking and smoking is strictly prohibited in the college campus.
+</span></b>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="container " style="margin-bottom: 100px;">
+  <h1 class="text-center" >Cultural Events</h1>
+
+
+<div class="row">
+<div class="col-sm-4">
+<button class="accordion "><b>VOCALIZE</b></button>
+    <div class="panel" >
+                <ul>
+                    <li>Solo singing</li>
+                        <li>Song of your own choice </li>
+                            <li>Song should be either in English or in Hindi  </li>
+                            <li>The music, if required to be played, must berecorded in a CD and handed well in advance to the coordinators.</li>
+                        <li>Time: maximum 4 minutes </li>
+                    <li >Two entries per guest college</li>
+                </ul>
+    </div>
+<button class="accordion"><b>FOLKMATIC</b></button>
+    <div class="panel">
+              <ul>
+                  <li>Folk Dance  Minimum four and maximum ten members.</li> 
+                      <li>The dance should be a purely folk form </li>
+                           <li>The use of apt costume and props will be considered for  marking. The song should be recorded in a CD and handed well in advance to the coordinators             </li>
+                      <li>Time: maximum 7 minutes </li>
+                  <li>Two entries per guest college</li>
+              </ul>
+          </div>
+              <button class="accordion"><b>EMBLAZON</b></button>
+                <div class="panel">
+                  <ul>
+                    <li>T-Shirt Painting </li>
+                       <li>One participant  </li>
+                         <li>Colours and required material should be brought by the participant  </li>
+                           <li>Theme and T-Shirt will be given on the spot. </li>
+                        <li>The participant will be required to explain his creation</li>
+                    <li>Time: maximum 30 minutes</li>
+                <li>One entry per guest college</li>
+             </ul>
+         </div>
+             <button class="accordion"><b>EDGE OF TOMORROW</b></button>
+              <div class="panel">
+                 <ul>
+                    <li>Maximum four members</li> 
+                       <li>The participants are required to present an original start up idea </li>
+                         <li>The efficiency will be judged by a team of experts</li>
+                     <li>Time: maximum 15 minutes</li>
+                  <li>Two entries per guest college</li> 
+              </ul>
+          </div>
+            <button class="accordion"><b>PICASSO</b></button>
+              <div class="panel" >
+                <ul>
+                  <li>Wall Painting/ Graffiti</li>
+                    <li>Maximum five members</li>
+                      <li>Colours and required material would be provided</li>
+                        <li>Theme will be given on the spot </li>
+                          <li>The participants will be required to explain their creation  </li>
+                        <li>Time: maximum 90 minutes </li>
+                     <li>One entry per guest college </li>
+                 </ul>
+             </div>
+               <button class="accordion btn  btn-outline-success"><b>INGENUITY</b></button>
+                 <div class="panel">
+                   <ul>
+                     <li>Waste to Worth</li>
+                       <li>A team of three members</li> 
+                         <li>The participants are required to bring their own material and make something worthy out of it.</li>
+                          <li>Time: maximum 40 minutes </li>
+                       <li>Two entries per guest college</li>
+                    </ul>
+                </div>
+             </div>
+         <div class="col-sm-4">
+            <button class="accordion"><b>MAD ABOUT DANCE</b></button>
+              <div class="panel">
+                <ul>
+                  <li> Solo Western Dance</li>
+                    <li>Dance can be on a movie or a non-movie song.</li>
+                      <li>Fusion is allowed.  </li>
+                    <li>The song should be recorded in a CD and handed well in advance to the coordinators.</li>
+                <li>Time: maximum 5 minutes </li> 
+             <li>Two entries per guest college</li>
+          </ul>
+       </div>
+         <button class="accordion"><b>ABCD</b></button>
+           <div class="panel">
+             <ul>
+               <li>Group Dance</li>
+                 <li>Maximum ten members</li>
+                   <li>Fusion is allowed . </li>
+                 <li>The song should be recorded in a CD and handed well in advance to the coordinators </li>
+              <li>Time: maximum 7 minutes </li>
+           <li>Two entries per guest college </li>
+        </ul>
+      </div>
+        <button class="accordion"><b>CRACKER JACK</b></button>
+          <div class="panel">
+            <ul>
+              <li>Fashion Show </li>
+                <li>A team of 18 members </li>
+                  <li>There will be only one round, the participants may choose any theme.</li>
+                    
+                      <li>The participants should bring their own material and one student to manage light & sound effects</li>
+                        <li>2 minutes will be given to every team to explain the theme they have chosen. A team member must explain the theme. </li>
+                           <p style="margin-top:8px;"><b>Time: maximum 15 minutes for the ramp</b></p>
+                         <li>The following guidelines are to be strictly adhered to:</li>
+                       <ul>
+                    <li>The use of country flags is prohibited</li>
+                 <li>Obscene moves to be avoided  </li>
+               <li>Transparency in dress material is not allowed</li>
+             </ul>
+          <li>The music should be recorded in a CD and handed well in advance to the coordinators</li>
+       <li>One entry per guest college</li>
+    </ul>
+  </div>
+    <button class="accordion"><b>THE BEAN SHOW</b></button>
+      <div class="panel">
+       <ul>
+         <li>Mime 
+           <li>Maximum ten members</li>
+             <li>Use of lights & mikes not allowed</li>
+               <li>The background score should be recorded in a CD  and handed well in advance to the coordinators</li>
+            <li>Time: maximum 10 minutes </li>
+        <li>Two entries per guest college</li>
+     </ul>
+  </div>
+    <button class="accordion"><b>CLICK</b></button>
+      <div class="panel">
+        <ul>
+           <li>Photography</li>
+              <li>Single participant</li>
+                <li>The participants are required to bring their own camera.</li>
+                  <li>Time: 19th Feb</li>
+               <li>The photographs are to be shown on the projector. A participant can exhibit and explain 3 photographs. </li>
+           <li>Two entries per guest college</li>
+        </ul>
+     </div>
+  </div>
+    <div class="col-sm-4">
+      <button class="accordion"><b>ARCHETYPE</b></button>
+        <div class="panel">
+           <ul>
+             <li>Solo Classical Dance</li>
+               <li>Dance can be on a movie or a non-movie song and Fusion is allowed. </li>
+                 <li>The song should be recorded in a CD and handed well in advance to the coordinators </li>
+              <li>Time: maximum 5 minutes</li>
+           <li>Two entries per guest college</li>
+        </ul>
+     </div>
+       <button class="accordion"><b>ILLUSION</b></button>
+         <div class="panel">
+           <ul>
+             <li>Face Painting </li>
+               <li>Two members (One painter and the other to be painted on)</li>  
+                 <li>Colours and required material should be brought by the participants </li> 
+                   <li>Theme will be given on the spot.</li>  
+                 <li>The participant will be required to explain his creation</li> 
+             <li>Time: maximum 30 minutes for painting  </li>
+          <li>Two entries per guest college</li>
+       </ul> 
+    </div>
+     <button class="accordion"><b>ROAD SHOW</b></button>
+       <div class="panel">
+         <ul>
+          <li>Nukkad Naatika </li>
+             <li>Maximum 12 members</li>
+                <li>The play must be in Hindi/Haryanavi The participants should refrain from making personal , offending , derogatory comments and from using 
+                          inappropriate language. 
+                    </li>
+                 <li>Use of lights & mikes not allowed</li>
+              <li>The natika must convey a social message </li>
+           <li>Time: maximum 8 minutes </li>
+        <li>Two entries per guest college</li>
+     </ul>
+  </div>
+    <button class="accordion"><b>BOULEVARD ART</b></button>
+      <div class="panel">
+        <ul>
+          <li>Road Painting</li>
+            <li>Maximum five members</li>
+              <li>Colours and required material would be provided</li>
+                 <li>Theme will be given on the spot </li>
+              <li> The participants will be required to explain their  creation </li>
+           <li>Time: maximum 03 hours </li>
+        <li>One entry per guest college</li>
+    </ul>
+</div>
+   <button class="accordion"><b>CINEMASCOPE</b></button>
+     <div class="panel">
+      <ul>
+        <li>Videography</li>
+          <li>Single participant</li>
+            <li>The participants are required to bring their own video cam. </li>
+              <li>Time: 19th Feb</li>
+                <li>The videos are to be shown on the projector. </li>
+             <li>Two entries per guest college</li>
+          </ul>
+      </div>
+   </div>
+     </div>
+       </div>
+         <div class="container" style="margin-bottom: 100px;">
+           <h1 class="text-center">Sports Events</h1>
+            <div class="row">
+              <div class="col-sm-4">
+                <button class="accordion "><b>VOLLEYBALL</b></button>
+                  <div class="panel" >
+                    <ul>
+                      <li>To get play started, a team is chosen to serve by coin toss.</li>
+                    <li>A teams of six players </li>
+                 <li>During a play, a team gets not more than 3 contacts with the ball </li>
+              <li>A ball touching the line is considered to be in </li>
+        <li>The ball must pass over the net between the two poles holding up the net </li>
+            <li>A back-row player may not jump and attack before the 3-meter line or perform a block </li>
+              <li>The team may touch the ball up to 3 times but individual players may not touch the ball twice consecutively </li>
+                <li>The game continues, with the first team to score 25 points by a two-point margin is awarded the set best-of-three to 25</li>
+                 <li>All the other International rules will be followed.</li>
+                  <li>Referee’s  decision will be final.</li>
+               </ul>
+           </div>
+       <button class="accordion "><b>TABLE TENNIS</b></button>
+          <div class="panel" >
+       <ul>
+       <ul>
+       <li>MEN’S SINGLES & DOUBLES</li>
+       <li> WOMEN’S SINGLES & DOUBLES</li>
+       <li>MIX DOUBLES</li>
+
+       </ul>
+       <li>Knockout tournament</li>
+       <li>Match duration – 3 sets of 11 points each. First player to win 2 sets is the winner</li> 
+       <li>A player wins a set by reaching to minimum 11 points & having a minimum margin of 2 points from opponents score </li>
+       <li>Players are required to bring their own TT bats.</li>
+
+      </ul>
+    </div>
+  <button class="accordion "><b>KABADDI</b></button>
+    <div class="panel" >
+      <ul>
+        <li>As per AKFI (Amateur Kabaddi Federation of India) rules.
+</li>
+      </ul>
+    </div>
+   
+  </div>
+  <div class="col-sm-4">
+    <button class="accordion "><b>BASKETBALL<span style="font-size:10px; ">&nbsp&nbsp( MEN & WOMEN)</span></b></button>
+    <div class="panel" >
+      <ul>
+        <li>A referee will toss the ball up between the two </li>
+        <li>A team of five players</li>
+        <li>Each game is divided into sections</li> 
+        <li>All levels -  each half is twenty minutes at halftime the teams switch goals.</li>
+        <li>Personal fouls: Personal fouls include any type of illegal physical contact.</li>
+        <ul>
+          <li>Hitting,Pushing,Slapping and Holding</li>
+          <li>Illegal pick/screen -- when an offensive player is moving. When an offensive player sticks out a limb and makes physical contact with a defender in an attempt to block the path of the defender.
+         </li>
+        </ul>
+        <li>All the other International rules will be followed.</li>
+        <li>Referee’s decision will be final. </li>
+
+      </ul>
+    </div>
+    <button class="accordion "><b>200m RACE<span style="font-size:10px; "> &nbsp&nbsp(MEN & WOMEN)</span></b></button>
+    <div class="panel" >
+      <ul>
+        <li>As per IOC (International Olympic Council) rules</li>
+      </ul>
+    </div>
+    <button class="accordion "><b>CHESS<span style="font-size:10px; ">&nbsp&nbsp (MEN & WOMEN)</span></b></button>
+    <div class="panel" >
+      <ul>
+        <li>Maximum 3 entries per college.</li>
+        <li>As per the International rules.</li>
+
+      </ul>
+    </div>
+    
+  </div>
+  <div class="col-sm-4">
+    <button class="accordion "><b>T-10 GALI CRICKET</b></button>
+    <div class="panel" >
+       <ul>
+        <li>A team of 11 players</li>
+        <li>The game shall be played with COSCO BALL.</li>
+        <li>The playing bats are to be brought by the teams.</li>
+        <li>The innings will be for 10 overs and the final will be for 15 overs</li>
+        <li>Max 02 overs can be bowled by a player/ for final match it will be 03 overs per player</li>
+        <li>Max 03 overs (18 balls) can be played by a batsman/ for final match it will be 04 overs (24 balls) per batsman. </li>                
+        <li>NO BALLS even if played and WIDE BALLS will not be counted in the tally of the balls played by the batsmen. </li>
+        <li>In case all players get out then the players who remained ‘not out’</li>
+       <ul>
+        <li> But played 18/24 balls can be called back by the team captain
+
+        </li>
+       </ul>
+       <li>Umpire’s  decision will be final and binding to all.</li>
+
+       </ul>
+    </div>
+    <button class="accordion "><b>4X100m RACE<span style="font-size:10px; ">&nbsp&nbsp(MEN & WOMEN)</span></b></button>
+    <div class="panel" >
+      <ul>
+        <li>As per IOC (International Olympic Council) rules</li>
+      </ul>
+    </div>
+
+    <button class="accordion "><b>Mini Soccer</b></button>
+    <div class="panel" >
+      <ul>
+        <li>Each team can have maximum 12 players.</li>
+        <li>Eight(8) players will be playing and 4 players will be standby.</li>
+        <li>Game will be rolling type.</li>
+        <li>Each game will be of 50 minutes devided by  two half of 25 minutes.</li>
+        <li>Players should be in proper boots and football jersey.</li>
+      </ul>
+    </div>
+    
+  </div>
+  <div>
+  </div>
+</div>
+  </div>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/particles.js"></script>
+<script src="../js/app.js"></script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
